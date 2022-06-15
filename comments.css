@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: blueviolet;
+    padding: 20px 40px;
+
+}
+.user{
+    font-family:serif;
+}
+.content{
+    font-family:Calibri;
+    font-weight: 500;
+}
+.btns{
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:10px solid lightblue;
+}
+small{
+    visibility: hidden;
+}
+.btns span{
+    cursor: pointer;
+}
+h5, .name, .content{
+    margin-top:7px ;
+}
+.prev, .frwd{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
